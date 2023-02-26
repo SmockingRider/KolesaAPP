@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2B30BD29A2409C00B9B57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30BC29A2409C00B9B57C /* AppDelegate.swift */; };
+		1D2B30BF29A2409C00B9B57C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30BE29A2409C00B9B57C /* SceneDelegate.swift */; };
+		1D2B30C129A2409C00B9B57C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30C029A2409C00B9B57C /* MainViewController.swift */; };
+		1D2B30C629A2409E00B9B57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B30C529A2409E00B9B57C /* Assets.xcassets */; };
+		1D2B30C929A2409E00B9B57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B30C729A2409E00B9B57C /* LaunchScreen.storyboard */; };
+		1D2B30D329A2433600B9B57C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30D229A2433600B9B57C /* HomeViewController.swift */; };
+		1D2B30D529A2434800B9B57C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30D429A2434800B9B57C /* FavoritesViewController.swift */; };
+		1D2B30D729A2436300B9B57C /* SubmitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30D629A2436300B9B57C /* SubmitController.swift */; };
+		1D2B30D929A2437100B9B57C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30D829A2437100B9B57C /* MessagesViewController.swift */; };
+		1D2B30DB29A2437F00B9B57C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30DA29A2437F00B9B57C /* ProfileViewController.swift */; };
+		1D2B30DE29A258D700B9B57C /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30DD29A258D700B9B57C /* NewsCollectionViewCell.swift */; };
+		1D2B30E029A25DA500B9B57C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B30DF29A25DA500B9B57C /* Constants.swift */; };
+		1D75A33429AB38D500B54942 /* AdvertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75A33329AB38D500B54942 /* AdvertsViewController.swift */; };
+		1D75A33629AB38EC00B54942 /* SearchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75A33529AB38EC00B54942 /* SearchesViewController.swift */; };
+		1D75A33829AB38FF00B54942 /* SellersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75A33729AB38FF00B54942 /* SellersViewController.swift */; };
+		B38FB386B8C290FCA917B488 /* Pods_KolesaAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84020C32E36EBE85E0C2C0B /* Pods_KolesaAPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D2B30B929A2409C00B9B57C /* KolesaAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KolesaAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2B30BC29A2409C00B9B57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D2B30BE29A2409C00B9B57C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D2B30C029A2409C00B9B57C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1D2B30C529A2409E00B9B57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D2B30C829A2409E00B9B57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D2B30CA29A2409E00B9B57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2B30D229A2433600B9B57C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1D2B30D429A2434800B9B57C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		1D2B30D629A2436300B9B57C /* SubmitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitController.swift; sourceTree = "<group>"; };
+		1D2B30D829A2437100B9B57C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		1D2B30DA29A2437F00B9B57C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1D2B30DD29A258D700B9B57C /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D2B30DF29A25DA500B9B57C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D75A33329AB38D500B54942 /* AdvertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertsViewController.swift; sourceTree = "<group>"; };
+		1D75A33529AB38EC00B54942 /* SearchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchesViewController.swift; sourceTree = "<group>"; };
+		1D75A33729AB38FF00B54942 /* SellersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellersViewController.swift; sourceTree = "<group>"; };
+		5CEEC55B63D7B63EFCC4AF4B /* Pods-KolesaAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolesaAPP.debug.xcconfig"; path = "Target Support Files/Pods-KolesaAPP/Pods-KolesaAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A2E569F9373B2EE871698C /* Pods-KolesaAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolesaAPP.release.xcconfig"; path = "Target Support Files/Pods-KolesaAPP/Pods-KolesaAPP.release.xcconfig"; sourceTree = "<group>"; };
+		E84020C32E36EBE85E0C2C0B /* Pods_KolesaAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KolesaAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D2B30B629A2409C00B9B57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38FB386B8C290FCA917B488 /* Pods_KolesaAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2B30B029A2409C00B9B57C = {
+			isa = PBXGroup;
+			children = (
+				1D2B30BB29A2409C00B9B57C /* KolesaAPP */,
+				1D2B30BA29A2409C00B9B57C /* Products */,
+				CC5B72684045E2DA7EC746ED /* Pods */,
+				D71FDE7A9F6A69ABB1DD0E08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D2B30BA29A2409C00B9B57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B30B929A2409C00B9B57C /* KolesaAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D2B30BB29A2409C00B9B57C /* KolesaAPP */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B30DC29A2588F00B9B57C /* Views */,
+				1D2B30D029A2425B00B9B57C /* ViewControllers */,
+				1D2B30BC29A2409C00B9B57C /* AppDelegate.swift */,
+				1D2B30BE29A2409C00B9B57C /* SceneDelegate.swift */,
+				1D2B30C029A2409C00B9B57C /* MainViewController.swift */,
+				1D2B30DF29A25DA500B9B57C /* Constants.swift */,
+				1D2B30C529A2409E00B9B57C /* Assets.xcassets */,
+				1D2B30C729A2409E00B9B57C /* LaunchScreen.storyboard */,
+				1D2B30CA29A2409E00B9B57C /* Info.plist */,
+			);
+			path = KolesaAPP;
+			sourceTree = "<group>";
+		};
+		1D2B30D029A2425B00B9B57C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B30D229A2433600B9B57C /* HomeViewController.swift */,
+				1D75A33229AB389C00B54942 /* FavoritesViewsControllers */,
+				1D2B30D629A2436300B9B57C /* SubmitController.swift */,
+				1D2B30D829A2437100B9B57C /* MessagesViewController.swift */,
+				1D2B30DA29A2437F00B9B57C /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1D2B30DC29A2588F00B9B57C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B30DD29A258D700B9B57C /* NewsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D75A33229AB389C00B54942 /* FavoritesViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B30D429A2434800B9B57C /* FavoritesViewController.swift */,
+				1D75A33329AB38D500B54942 /* AdvertsViewController.swift */,
+				1D75A33529AB38EC00B54942 /* SearchesViewController.swift */,
+				1D75A33729AB38FF00B54942 /* SellersViewController.swift */,
+			);
+			path = FavoritesViewsControllers;
+			sourceTree = "<group>";
+		};
+		CC5B72684045E2DA7EC746ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CEEC55B63D7B63EFCC4AF4B /* Pods-KolesaAPP.debug.xcconfig */,
+				C5A2E569F9373B2EE871698C /* Pods-KolesaAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D71FDE7A9F6A69ABB1DD0E08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E84020C32E36EBE85E0C2C0B /* Pods_KolesaAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D2B30B829A2409C00B9B57C /* KolesaAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D2B30CD29A2409E00B9B57C /* Build configuration list for PBXNativeTarget "KolesaAPP" */;
+			buildPhases = (
+				4AEF8D1746B6829B3F34717C /* [CP] Check Pods Manifest.lock */,
+				1D2B30B529A2409C00B9B57C /* Sources */,
+				1D2B30B629A2409C00B9B57C /* Frameworks */,
+				1D2B30B729A2409C00B9B57C /* Resources */,
+				CB0752ED07D47E2362CE60C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KolesaAPP;
+			productName = KolesaAPP;
+			productReference = 1D2B30B929A2409C00B9B57C /* KolesaAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D2B30B129A2409C00B9B57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1D2B30B829A2409C00B9B57C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1D2B30B429A2409C00B9B57C /* Build configuration list for PBXProject "KolesaAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D2B30B029A2409C00B9B57C;
+			productRefGroup = 1D2B30BA29A2409C00B9B57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D2B30B829A2409C00B9B57C /* KolesaAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D2B30B729A2409C00B9B57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2B30C929A2409E00B9B57C /* LaunchScreen.storyboard in Resources */,
+				1D2B30C629A2409E00B9B57C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AEF8D1746B6829B3F34717C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KolesaAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0752ED07D47E2362CE60C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KolesaAPP/Pods-KolesaAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KolesaAPP/Pods-KolesaAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KolesaAPP/Pods-KolesaAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2B30B529A2409C00B9B57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2B30C129A2409C00B9B57C /* MainViewController.swift in Sources */,
+				1D2B30D929A2437100B9B57C /* MessagesViewController.swift in Sources */,
+				1D2B30BD29A2409C00B9B57C /* AppDelegate.swift in Sources */,
+				1D2B30BF29A2409C00B9B57C /* SceneDelegate.swift in Sources */,
+				1D2B30D729A2436300B9B57C /* SubmitController.swift in Sources */,
+				1D2B30E029A25DA500B9B57C /* Constants.swift in Sources */,
+				1D2B30D529A2434800B9B57C /* FavoritesViewController.swift in Sources */,
+				1D2B30DB29A2437F00B9B57C /* ProfileViewController.swift in Sources */,
+				1D75A33629AB38EC00B54942 /* SearchesViewController.swift in Sources */,
+				1D2B30DE29A258D700B9B57C /* NewsCollectionViewCell.swift in Sources */,
+				1D75A33829AB38FF00B54942 /* SellersViewController.swift in Sources */,
+				1D75A33429AB38D500B54942 /* AdvertsViewController.swift in Sources */,
+				1D2B30D329A2433600B9B57C /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D2B30C729A2409E00B9B57C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D2B30C829A2409E00B9B57C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D2B30CB29A2409E00B9B57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D2B30CC29A2409E00B9B57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D2B30CE29A2409E00B9B57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CEEC55B63D7B63EFCC4AF4B /* Pods-KolesaAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMRJ8L67G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KolesaAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmockingRider.KolesaAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D2B30CF29A2409E00B9B57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A2E569F9373B2EE871698C /* Pods-KolesaAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMRJ8L67G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KolesaAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmockingRider.KolesaAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D2B30B429A2409C00B9B57C /* Build configuration list for PBXProject "KolesaAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2B30CB29A2409E00B9B57C /* Debug */,
+				1D2B30CC29A2409E00B9B57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D2B30CD29A2409E00B9B57C /* Build configuration list for PBXNativeTarget "KolesaAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2B30CE29A2409E00B9B57C /* Debug */,
+				1D2B30CF29A2409E00B9B57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D2B30B129A2409C00B9B57C /* Project object */;
+}
